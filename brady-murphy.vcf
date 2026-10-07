@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Murphy;Brady;;Dr.;
+FN:Dr. Brady Murphy
+ORG:Stroma Health
+TITLE:Family Physician / Founder
+TEL;TYPE=CELL,VOICE:+1-204-291-2884
+EMAIL;TYPE=INTERNET,WORK:brady@stromahealth.ca
+URL:https://stromahealth.ca
+ADR;TYPE=WORK:;;;;;Manitoba;Canada
+NOTE:Stroma - a FHIR-native EMR for primary care.
+END:VCARD
