@@ -6,6 +6,6 @@ ORG:Stroma Health
 TEL;TYPE=CELL,VOICE:+1-204-291-2884
 EMAIL;TYPE=INTERNET,WORK:brady@stromahealth.ca
 URL:https://stromahealth.ca
-ADR;TYPE=WORK:;;;;;Manitoba;Canada
+ADR;TYPE=WORK:;;;Winnipeg;Manitoba;;Canada
 NOTE:Building a FHIR-native EMR for primary care.
 END:VCARD
