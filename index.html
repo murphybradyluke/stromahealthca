@@ -51,7 +51,7 @@
       padding: max(2.5rem, env(safe-area-inset-top)) 1rem max(2.5rem, env(safe-area-inset-bottom));
       text-align: center;
     }
-    .mark { width: 64px; height: 64px; color: var(--brand); display: block; margin: 0 auto 1.25rem; }
+    .logo { width: 300px; max-width: 100%; height: auto; display: block; margin: 0 auto 1.25rem; }
     h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 .3rem; letter-spacing: -.01em; }
     .role { color: var(--muted); margin: 0 0 2rem; font-size: .98rem; }
     .save {
@@ -78,10 +78,10 @@
 </head>
 <body>
   <main>
-    <svg class="mark" viewBox="0 0 32 32" role="img" aria-label="Stroma Health">
-      <rect width="32" height="32" rx="8" fill="currentColor"/>
-      <path d="M7 11q4.5-3 9 0t9 0M7 16q4.5-3 9 0t9 0M7 21q4.5-3 9 0t9 0" stroke="var(--bg)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-    </svg>
+      <picture>
+          <source srcset="assets/logos/stroma-logo-dark.svg" media="(prefers-color-scheme: dark)">
+          <img src="assets/logos/stroma-logo-light.svg" alt="Stroma Health" class="logo" width="300" height="156">
+      </picture>
 
     <h1>Dr. Brady Murphy</h1>
     <p class="role">Family physician · Founder, Stroma Health</p>
