@@ -1,7 +1,7 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Murphy;Brady;;;
-FN:Brady Murphy
+N:Murphy;Brady;;Dr.;
+FN:Dr. Brady Murphy
 ORG:Stroma Health
 TEL;TYPE=CELL,VOICE:+1-204-291-2884
 EMAIL;TYPE=INTERNET,WORK:brady@stromahealth.ca
